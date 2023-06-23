@@ -1,0 +1,15 @@
+.vbox.disabled {
+	-fx-box-border: red;
+	-fx-background-color: red;
+}
+
+.hbox.disabled {
+	-fx-box-border: blue;
+	-fx-background-color: blue;
+}
+
+.button.disabled {
+	-fx-box-border: blue;
+	-fx-background-color: blue;
+	-fx-rotate: 45;
+}

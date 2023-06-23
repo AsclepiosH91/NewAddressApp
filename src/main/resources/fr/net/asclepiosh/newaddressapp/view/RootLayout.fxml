@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.net.asclepiosh.newaddressapp.ui.RootLayoutController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <Menu mnemonicParsing="false" text="Fichier">
+                <MenuItem mnemonicParsing="false" onAction="#handleNew" text="Nouveau"/>
+                <SeparatorMenuItem mnemonicParsing="false"/>
+                <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Ouvrir"/>
+                <SeparatorMenuItem mnemonicParsing="false"/>
+                <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Enregistrer"/>
+                <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" text="Enregistrer sous"/>
+                <SeparatorMenuItem mnemonicParsing="false"/>
+                <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Fermer"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Modifier">
+                <MenuItem mnemonicParsing="false" onAction="#handleCreate" text="Créer"/>
+                <MenuItem mnemonicParsing="false" text="Modifier"/>
+                <MenuItem mnemonicParsing="false" text="Supprimer"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Aide">
+                <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="À propos"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>

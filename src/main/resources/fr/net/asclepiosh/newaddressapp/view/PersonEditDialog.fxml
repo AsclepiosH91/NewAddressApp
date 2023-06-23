@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.net.asclepiosh.newaddressapp.ui.PersonEditDialogController">
+    <GridPane layoutX="175.0" layoutY="110.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="5.0"
+              AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.0" minWidth="10.0" prefWidth="113.39998779296874"/>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="10.0" prefWidth="275.8000122070313"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        </rowConstraints>
+        <Label text="Prénom"/>
+        <Label text="Nom" GridPane.rowIndex="1"/>
+        <Label text="Rue" GridPane.rowIndex="2"/>
+        <Label text="Ville" GridPane.rowIndex="3"/>
+        <Label text="Code postal" GridPane.rowIndex="4"/>
+        <Label text="Anniversaire" GridPane.rowIndex="5"/>
+        <TextField fx:id="firstNameField" GridPane.columnIndex="1"/>
+        <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <TextField fx:id="streetField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        <TextField fx:id="cityField" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+        <TextField fx:id="postalCodeField" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+        <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    </GridPane>
+    <ButtonBar layoutX="386.0" layoutY="346.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0"
+               AnchorPane.rightAnchor="10.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleOk" text="Ok"/>
+            <Button mnemonicParsing="false" onAction="#handleCancel" text="Annuler"/>
+        </buttons>
+    </ButtonBar>
+</AnchorPane>
