@@ -20,7 +20,7 @@
 		<jvm.version>17</jvm.version>
 
 		<staging.dir>${project.build.directory}/staging</staging.dir>
-		<mainClass>fr.net.asclepiosh.newaddressapp.MainApp</mainClass>
+		<mainClass>fr.net.asclepiosh.newaddressapp.NewAddressApp</mainClass>
 	</properties>
 
 	<dependencies>

@@ -17,9 +17,9 @@
                 <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Fermer"/>
             </Menu>
             <Menu mnemonicParsing="false" text="Modifier">
-                <MenuItem mnemonicParsing="false" onAction="#handleCreate" text="Créer"/>
-                <MenuItem mnemonicParsing="false" text="Modifier"/>
-                <MenuItem mnemonicParsing="false" text="Supprimer"/>
+                <MenuItem mnemonicParsing="false" text="Créer" onAction="#handleCreate"/>
+                <MenuItem mnemonicParsing="false" text="Modifier" onAction="#handleModify"/>
+                <MenuItem mnemonicParsing="false" text="Supprimer" onAction="#handleDelete"/>
             </Menu>
             <Menu mnemonicParsing="false" text="Aide">
                 <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="À propos"/>

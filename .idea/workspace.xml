@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f389fca-90e0-49d8-b5c0-bfaac44b5b0e" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/NewAddressApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/ui/PersonOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/ui/PersonOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/ui/RootLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/net/asclepiosh/newaddressapp/ui/RootLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/net/asclepiosh/newaddressapp/view/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/net/asclepiosh/newaddressapp/view/RootLayout.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,33 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Users/Nicolas/GitHub/IdeaProjects/NewAddressApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27147147",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Nicolas/GitHub/IdeaProjects/NewAddressApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27147147&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Nicolas\GitHub\IdeaProjects\NewAddressApp\src\main\resources\fr\net\asclepiosh\newaddressapp\style" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NewAddressApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fr.net.asclepiosh.newaddressapp.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="fr.net.asclepiosh.newaddressapp.NewAddressApp" />
       <module name="NewAddressApp" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.NewAddressApp" />
       </list>
     </recent_temporary>
   </component>
@@ -88,6 +95,10 @@
       <updated>1687530805183</updated>
       <workItem from="1687530806192" duration="1752000" />
       <workItem from="1687532568992" duration="3998000" />
+      <workItem from="1687544758996" duration="64000" />
+      <workItem from="1687545093089" duration="112000" />
+      <workItem from="1687587283126" duration="305000" />
+      <workItem from="1687587868146" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />

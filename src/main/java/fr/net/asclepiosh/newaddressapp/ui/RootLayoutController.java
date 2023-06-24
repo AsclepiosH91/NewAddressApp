@@ -1,7 +1,8 @@
 package fr.net.asclepiosh.newaddressapp.ui;
 
-import fr.net.asclepiosh.newaddressapp.MainApplication;
+import fr.net.asclepiosh.newaddressapp.MainApp;
 import fr.net.asclepiosh.newaddressapp.model.Person;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.stage.FileChooser;
@@ -18,14 +19,14 @@ import java.io.File;
 public class RootLayoutController {
 
     // Reference to the main application
-    private MainApplication mainApp;
+    private MainApp mainApp;
 
     /**
      * Is called by the main application to give a reference back to itself.
      *
      * @param mainApp
      */
-    public void setMainApp(MainApplication mainApp) {
+    public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
     }
 
@@ -102,9 +103,9 @@ public class RootLayoutController {
     @FXML
     private void handleAbout() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("AddressApp");
+        alert.setTitle("New Address App");
         alert.setHeaderText("À propos");
-        alert.setContentText("Auteur: Marco Jakob\nWebsite: http://code.makery.ch");
+        alert.setContentText("Auteur : Nicolas Torres à partir du tutorial de Marco Jakob\nWebsite: http://code.makery.ch");
 
         alert.showAndWait();
     }
@@ -134,6 +135,10 @@ public class RootLayoutController {
     }
 
 
+	public void handleModify(ActionEvent actionEvent) {
 
+	}
 
+	public void handleDelete(ActionEvent actionEvent) {
+	}
 }

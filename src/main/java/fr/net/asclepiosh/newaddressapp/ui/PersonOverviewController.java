@@ -1,6 +1,6 @@
 package fr.net.asclepiosh.newaddressapp.ui;
 
-import fr.net.asclepiosh.newaddressapp.MainApplication;
+import fr.net.asclepiosh.newaddressapp.MainApp;
 import fr.net.asclepiosh.newaddressapp.model.Person;
 import fr.net.asclepiosh.newaddressapp.util.DateUtil;
 import javafx.fxml.FXML;
@@ -32,7 +32,7 @@ public class PersonOverviewController {
     private Label birthdayLabel;
 
     // Reference to the main application.
-    private MainApplication mainApp;
+    private MainApp mainApp;
 
     /**
      * The constructor.
@@ -66,7 +66,7 @@ public class PersonOverviewController {
      *
      * @param mainApp
      */
-    public void setMainApp(MainApplication mainApp) {
+    public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
 
         // Add observable list data to the table
